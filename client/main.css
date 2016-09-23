@@ -1,0 +1,86 @@
+/* CSS declarations go here */
+.bar {
+	background: #4FCA58;
+}
+
+.col-3 {
+	background: #FFFFFF;
+	border-color: #D2C9C9;
+	min-height: 40px;
+	border-radius: 8px;
+	margin-left: 1.4%;
+	margin-right: 1.4%;
+	display: inline-block;
+	float: left;
+	width: 45%;
+}
+
+.btn.grilla {
+
+	display: inline-block;
+	float: left;
+	width: 40%;
+	height: 39.1px; 
+	padding: 0; 
+	margin: 0;
+}
+.btn.grilla2 {
+
+	display: inline-block;
+	float: right;
+	width: 40%;
+	height: 39px; 
+	padding: 0; 
+	margin: 0;
+}
+.col-4 {
+
+	display: inline-block;
+	float: left;
+	width: 30%;
+	height: 100%;
+}
+
+.title {
+	color: #FFFFFF;
+}
+
+body {
+	
+	background: #F4EFEF;
+	width:  100%;
+	margin-top: 50px;
+}
+.row {
+
+	padding: 10px;
+	width: 104.4%;
+	min-height: 1px;
+	float: left;
+}
+
+.row2 {
+
+	width: 100%;
+	min-height: 1px;
+	float: left;
+	display: inline-block;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.card {
+
+	border-radius: 0px;
+}
+
+input{
+   text-align:center;
+}
+
+h6 {
+	text-transform:none;
+}

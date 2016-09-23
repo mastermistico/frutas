@@ -1,0 +1,32 @@
+<head>
+	<h1 class="title"> Frutas </h1>
+</head>
+
+<body>
+	{{>header }}
+    {{> modal}}
+	<main>
+		<div class="row">
+		<!--div class="col-3">hola</div><div class="col-3">hello</div-->
+	    {{#each items}}
+	    	<div class="card col-3">	
+	    		<img src="http://www.freeimageslive.com/galleries/food/fruitveg/preview/avocados.jpg"/>
+	    		<div class="content-padded">
+	    			<h6><strong>{{nombre}}</strong></h6>
+	    			<p>{{referencia}}</p> 
+	    		</div>	
+	    		<div class="row2">
+	    				<button class="btn grilla">	
+	    					<span class="icon icon-minus"></span>
+	    				</button>
+	    				<input type="number" cols="50" 
+	    				placeholder="0" style="width: 20%; padding: 0; margin: 0">
+	    				<button class="btn grilla2 btn-positive">
+	    					<span class="icon icon-plus"></span>
+	    				</button>
+	    		</div>
+	    	</div>
+	    {{/each}}
+		</div>
+	</main>
+</body>
